@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T20:31:01.163Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="WeWITN-nPoxqVEmFOgcm" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T21:50:52.752Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="by3pm2faG0HaSDdeh3N0" version="14.4.3" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1129" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -265,7 +265,7 @@
         <mxCell id="QnhWw6pTb6ciaW2jzA_6-1" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="930" y="370" width="200" height="194" as="geometry" />
         </mxCell>
-        <mxCell id="QnhWw6pTb6ciaW2jzA_6-2" value="- id: integer&#xa;- username: string (180)&#xa;- email: string (180) Unique&#xa;- roles: [ ] json&#xa;- password: string (hashed)&#xa;- userAdvances: UserAdvance&#xa;- userMailingOk: bolean&#xa;- userNickName: string (255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="QnhWw6pTb6ciaW2jzA_6-1" vertex="1">
+        <mxCell id="QnhWw6pTb6ciaW2jzA_6-2" value="- id: integer&lt;br&gt;- username: string (180)&lt;br&gt;- email: string (180) Unique&lt;br&gt;- roles: [ ] json&lt;br&gt;- password: string (hashed)&lt;br&gt;- userAdvances: &lt;b&gt;UserAdvance&lt;/b&gt;&lt;br&gt;- userMailingOk: bolean&lt;br&gt;- userNickName: string (255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="QnhWw6pTb6ciaW2jzA_6-1" vertex="1">
           <mxGeometry y="26" width="200" height="134" as="geometry" />
         </mxCell>
         <mxCell id="QnhWw6pTb6ciaW2jzA_6-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="QnhWw6pTb6ciaW2jzA_6-1" vertex="1">
@@ -277,7 +277,7 @@
         <mxCell id="QnhWw6pTb6ciaW2jzA_6-5" value="UserAdvance" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="1370" y="395" width="330" height="144" as="geometry" />
         </mxCell>
-        <mxCell id="QnhWw6pTb6ciaW2jzA_6-6" value="- id: integer&#xa;- adventureId: integer&#xa;- advanceValue: float&#xa;- user: User&#xa;- goodAnswerValue: text (json =&gt; &#39;enygmaLoopId&#39;, &#39;bolean&#39;) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="QnhWw6pTb6ciaW2jzA_6-5" vertex="1">
+        <mxCell id="QnhWw6pTb6ciaW2jzA_6-6" value="- id: integer&lt;br&gt;- adventureId: integer&lt;br&gt;- advanceValue: float&lt;br&gt;- user: &lt;b&gt;User&lt;/b&gt;&lt;br&gt;- goodAnswerValue: text (json =&amp;gt; &#39;enygmaLoopId&#39;, &#39;bolean&#39;)&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="QnhWw6pTb6ciaW2jzA_6-5" vertex="1">
           <mxGeometry y="26" width="330" height="84" as="geometry" />
         </mxCell>
         <mxCell id="QnhWw6pTb6ciaW2jzA_6-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="QnhWw6pTb6ciaW2jzA_6-5" vertex="1">
@@ -305,7 +305,7 @@
         <mxCell id="hQuamOxjZvcl3ys562Xx-1" value="CityAdventure" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="930" y="626" width="270" height="394" as="geometry" />
         </mxCell>
-        <mxCell id="hQuamOxjZvcl3ys562Xx-2" value="- id: integer&#xa;- adventureName: string(255)&#xa;- adventureTown: string(255)&#xa;- adventurePictureFilename: string(255)&#xa;- adventureDuration: string(255)&#xa;- adventureDescription: text&#xa;- videoAventureIntroFilename: string(255)&#xa;- videoLastEnigmaFilename: string(255)&#xa;- lastEnigmaPictureFilename: string(255)&#xa;- lastEnigmaQuestionText: string(255)&#xa;- lastEnigmaExpectedAnswer: string(255)&#xa;- videoFinalSequenceFilename: string(255)&#xa;- enygmaLoops : EnigmaLoop&#xa;- lastEnigmaLatitude: float&#xa;- lastEnigmaLongitude: float&#xa;- pictoMarker: string(255)&#xa;- adventureWebLink: string(255)&#xa;- pointOfInterest: boolean&#xa;- catchPositionDistance: integer&#xa;- adventureLastVidOff: boolean&#xa;- adventureMapOff: bolean&#xa;- adventureFinalQuestionOff: bolean&#xa;- adventureUseCompass: bolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-1">
+        <mxCell id="hQuamOxjZvcl3ys562Xx-2" value="- id: integer&lt;br&gt;- adventureName: string(255)&lt;br&gt;- adventureTown: string(255)&lt;br&gt;- adventurePictureFilename: string(255)&lt;br&gt;- adventureDuration: string(255)&lt;br&gt;- adventureDescription: text&lt;br&gt;- videoAventureIntroFilename: string(255)&lt;br&gt;- videoLastEnigmaFilename: string(255)&lt;br&gt;- lastEnigmaPictureFilename: string(255)&lt;br&gt;- lastEnigmaQuestionText: string(255)&lt;br&gt;- lastEnigmaExpectedAnswer: string(255)&lt;br&gt;- videoFinalSequenceFilename: string(255)&lt;br&gt;- enygmaLoops : &lt;b&gt;EnigmaLoop&lt;/b&gt;&lt;br&gt;- lastEnigmaLatitude: float&lt;br&gt;- lastEnigmaLongitude: float&lt;br&gt;- pictoMarker: string(255)&lt;br&gt;- adventureWebLink: string(255)&lt;br&gt;- pointOfInterest: boolean&lt;br&gt;- catchPositionDistance: integer&lt;br&gt;- adventureLastVidOff: boolean&lt;br&gt;- adventureMapOff: bolean&lt;br&gt;- adventureFinalQuestionOff: bolean&lt;br&gt;- adventureUseCompass: bolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-1">
           <mxGeometry y="26" width="270" height="334" as="geometry" />
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-1">
@@ -313,6 +313,18 @@
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-1">
           <mxGeometry y="368" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-5" value="EnygmaLoop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="626" width="280" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-6" value="- id: integer&#xa;- storyOrder: string(10)&#xa;- enygmaName: string(255)&#xa;- gpsCoordLatitude: float&#xa;- gpsCoordLongitude: float&#xa;- compassActivate: float&#xa;- videoIntroClueFilename: string(255)&#xa;- videoHistoryInfoFilename: string(255)&#xa;- enygmaQuestionPictureFilename: string(255)&#xa;- enygmaQuestionText: text&#xa;- enigmaExpectedAnswer: string(255)&#xa;- cityAdventure: CityAdventure&#xa;- loopPictoMarker: string(255)&#xa;- loopDescription: text&#xa;- loopWebLink: string(255)&#xa;- loopCatchPostitionDistance: integer&#xa;- loopFirstVidOff: boolean&#xa;- loopMapOff: boolean&#xa;- loopQuestionOff: boolean&#xa;- loopUseCompass: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-5">
+          <mxGeometry y="26" width="280" height="324" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-5">
+          <mxGeometry y="350" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-5">
+          <mxGeometry y="358" width="280" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
