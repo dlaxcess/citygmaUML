@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T16:14:59.217Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="s45RZkowKQT7scBWrcuz" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T16:43:22.765Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="OyZXVzoJ7re40Gw4UExS" version="14.4.3" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1355" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1936" dy="2275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,10 +88,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-18" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="-1040" width="2390" height="2120" as="geometry" />
+          <mxGeometry x="2130" y="-1040" width="2390" height="2120" as="geometry" />
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-19" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="2330" y="-940" width="200" height="194" as="geometry" />
+          <mxGeometry x="2910" y="-950" width="200" height="194" as="geometry" />
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-20" value="- id: integer&lt;br&gt;- username: string (180)&lt;br&gt;- email: string (180) Unique&lt;br&gt;- roles: [ ] json&lt;br&gt;- password: string (hashed)&lt;br&gt;- userAdvances: &lt;b&gt;UserAdvance&lt;/b&gt;&lt;br&gt;- userMailingOk: bolean&lt;br&gt;- userNickName: string (255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-19">
           <mxGeometry y="26" width="200" height="134" as="geometry" />
@@ -103,7 +103,7 @@
           <mxGeometry y="168" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-23" value="UserAdvance" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="2770" y="-915" width="330" height="144" as="geometry" />
+          <mxGeometry x="3350" y="-925" width="330" height="144" as="geometry" />
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-24" value="- id: integer&lt;br&gt;- adventureId: integer&lt;br&gt;- advanceValue: float&lt;br&gt;- user: &lt;b&gt;User&lt;/b&gt;&lt;br&gt;- goodAnswerValue: text (json =&amp;gt; &#39;enygmaLoopId&#39;, &#39;bolean&#39;)&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-23">
           <mxGeometry y="26" width="330" height="84" as="geometry" />
@@ -116,8 +116,8 @@
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-27" value="" style="endArrow=open;html=1;endSize=12;startArrow=open;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="hQuamOxjZvcl3ys562Xx-20" target="hQuamOxjZvcl3ys562Xx-24" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2570" y="-864.5" as="sourcePoint" />
-            <mxPoint x="2730" y="-864.5" as="targetPoint" />
+            <mxPoint x="3150" y="-874.5" as="sourcePoint" />
+            <mxPoint x="3310" y="-874.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-28" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="hQuamOxjZvcl3ys562Xx-27">
@@ -130,8 +130,8 @@
             <mxPoint x="-10.2" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hQuamOxjZvcl3ys562Xx-30" value="CityAdventure" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="2330" y="-684" width="270" height="394" as="geometry" />
+        <mxCell id="hQuamOxjZvcl3ys562Xx-30" value="Adventure" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="-694" width="270" height="394" as="geometry" />
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-31" value="- id: integer&lt;br&gt;- adventureName: string(255)&lt;br&gt;- adventureTown: string(255)&lt;br&gt;- adventurePictureFilename: string(255)&lt;br&gt;- adventureDuration: string(255)&lt;br&gt;- adventureDescription: text&lt;br&gt;- videoAventureIntroFilename: string(255)&lt;br&gt;- videoLastEnigmaFilename: string(255)&lt;br&gt;- lastEnigmaPictureFilename: string(255)&lt;br&gt;- lastEnigmaQuestionText: string(255)&lt;br&gt;- lastEnigmaExpectedAnswer: string(255)&lt;br&gt;- videoFinalSequenceFilename: string(255)&lt;br&gt;- enygmaLoops : &lt;b&gt;EnigmaLoop&lt;/b&gt;&lt;br&gt;- lastEnigmaLatitude: float&lt;br&gt;- lastEnigmaLongitude: float&lt;br&gt;- pictoMarker: string(255)&lt;br&gt;- adventureWebLink: string(255)&lt;br&gt;- pointOfInterest: boolean&lt;br&gt;- catchPositionDistance: integer&lt;br&gt;- adventureLastVidOff: boolean&lt;br&gt;- adventureMapOff: bolean&lt;br&gt;- adventureFinalQuestionOff: bolean&lt;br&gt;- adventureUseCompass: bolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-30">
           <mxGeometry y="26" width="270" height="334" as="geometry" />
@@ -143,9 +143,9 @@
           <mxGeometry y="368" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-34" value="EnygmaLoop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="2770" y="-684" width="280" height="384" as="geometry" />
+          <mxGeometry x="3350" y="-694" width="280" height="384" as="geometry" />
         </mxCell>
-        <mxCell id="hQuamOxjZvcl3ys562Xx-35" value="- id: integer&lt;br&gt;- storyOrder: string(10)&lt;br&gt;- enygmaName: string(255)&lt;br&gt;- gpsCoordLatitude: float&lt;br&gt;- gpsCoordLongitude: float&lt;br&gt;- compassActivate: float&lt;br&gt;- videoIntroClueFilename: string(255)&lt;br&gt;- videoHistoryInfoFilename: string(255)&lt;br&gt;- enygmaQuestionPictureFilename: string(255)&lt;br&gt;- enygmaQuestionText: text&lt;br&gt;- enigmaExpectedAnswer: string(255)&lt;br&gt;- cityAdventure: &lt;b&gt;CityAdventure&lt;/b&gt;&lt;br&gt;- loopPictoMarker: string(255)&lt;br&gt;- loopDescription: text&lt;br&gt;- loopWebLink: string(255)&lt;br&gt;- loopCatchPostitionDistance: integer&lt;br&gt;- loopFirstVidOff: boolean&lt;br&gt;- loopMapOff: boolean&lt;br&gt;- loopQuestionOff: boolean&lt;br&gt;- loopUseCompass: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-34">
+        <mxCell id="hQuamOxjZvcl3ys562Xx-35" value="- id: integer&lt;br&gt;- storyOrder: string(10)&lt;br&gt;- enygmaName: string(255)&lt;br&gt;- gpsCoordLatitude: float&lt;br&gt;- gpsCoordLongitude: float&lt;br&gt;- compassActivate: float&lt;br&gt;- videoIntroClueFilename: string(255)&lt;br&gt;- videoHistoryInfoFilename: string(255)&lt;br&gt;- enygmaQuestionPictureFilename: string(255)&lt;br&gt;- enygmaQuestionText: text&lt;br&gt;- enigmaExpectedAnswer: string(255)&lt;br&gt;- cityAdventure: &lt;b&gt;Adventure&lt;/b&gt;&lt;br&gt;- loopPictoMarker: string(255)&lt;br&gt;- loopDescription: text&lt;br&gt;- loopWebLink: string(255)&lt;br&gt;- loopCatchPostitionDistance: integer&lt;br&gt;- loopFirstVidOff: boolean&lt;br&gt;- loopMapOff: boolean&lt;br&gt;- loopQuestionOff: boolean&lt;br&gt;- loopUseCompass: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-34">
           <mxGeometry y="26" width="280" height="324" as="geometry" />
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-34">
@@ -156,8 +156,8 @@
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-38" value="" style="endArrow=open;html=1;endSize=12;startArrow=open;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2600" y="-560" as="sourcePoint" />
-            <mxPoint x="2770" y="-560" as="targetPoint" />
+            <mxPoint x="3180" y="-570" as="sourcePoint" />
+            <mxPoint x="3350" y="-570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-39" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="hQuamOxjZvcl3ys562Xx-38">
@@ -169,6 +169,45 @@
           <mxGeometry x="1" relative="1" as="geometry">
             <mxPoint x="-10.2" y="2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-41" value="LoopType" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="-190" width="280" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-42" value="- id: integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-41">
+          <mxGeometry y="26" width="280" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-41">
+          <mxGeometry y="150" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-44" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-41">
+          <mxGeometry y="158" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-45" value="LoopType" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="120" width="280" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-46" value="- id: integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-45">
+          <mxGeometry y="26" width="280" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-45">
+          <mxGeometry y="150" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-48" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-45">
+          <mxGeometry y="158" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-57" value="GpsConfig&#xa; " style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="-190" width="280" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-58" value="- id: integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-57">
+          <mxGeometry y="26" width="280" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-57">
+          <mxGeometry y="150" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-60" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-57">
+          <mxGeometry y="158" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hQuamOxjZvcl3ys562Xx-61" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="-1030" width="2390" height="2120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
