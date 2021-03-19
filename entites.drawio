@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T15:54:45.023Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="MHmfEBqglCLXjAW5znZr" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-19T15:55:13.155Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="KwW_NR1PfFV0O8E5s8l9" version="14.4.3" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1129" dy="2983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -144,16 +144,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-30" value="Adventure" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="3510" y="-970" width="270" height="254" as="geometry" />
+          <mxGeometry x="3510" y="-1000" width="270" height="284" as="geometry" />
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-31" value="- id: integer&lt;br&gt;- adventurePublished: boolean&lt;br&gt;- adventurePublishedDate: Datetime&lt;br&gt;- adventureName: string(255)&lt;br&gt;- adventureAuthor: string(255)&lt;br&gt;- adventureTown: string(255)&lt;br&gt;- adventurePictureFilename: string(255)&lt;br&gt;- adventureDuration: string(255)&lt;br&gt;- adventureDescription: text&lt;br&gt;- steps : &lt;b&gt;Step&lt;/b&gt;&lt;br&gt;- adventureLatitude: float&lt;br&gt;- adventureLongitude: float&lt;br&gt;- pictoMarker: string(255)&lt;br&gt;- adventureWebLink: string(255)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-30">
-          <mxGeometry y="26" width="270" height="194" as="geometry" />
+          <mxGeometry y="26" width="270" height="224" as="geometry" />
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-30">
-          <mxGeometry y="220" width="270" height="8" as="geometry" />
+          <mxGeometry y="250" width="270" height="8" as="geometry" />
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-33" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hQuamOxjZvcl3ys562Xx-30">
-          <mxGeometry y="228" width="270" height="26" as="geometry" />
+          <mxGeometry y="258" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hQuamOxjZvcl3ys562Xx-34" value="Step" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="3500" y="-610" width="280" height="184" as="geometry" />
